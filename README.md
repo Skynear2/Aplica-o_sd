@@ -9,3 +9,12 @@ Process.py irá processar e adicionar os dados em uma fila de mensagens.
 Consumer.py irá consumir os dados.
 
 A fila de mensagens utilizada como servidor é RabbitMQ e pode ser encontrada para download e instalação em: https://www.rabbitmq.com/download.html
+
+Para compilar: 
+python3 collector.py
+
+python3 Process.py
+
+python3 Consumer.py
+
+Respeitar a ordem.
